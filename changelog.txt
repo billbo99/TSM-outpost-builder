@@ -1,0 +1,35 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2023/04/01
+  Changes:
+    - Possible Breaking Change .. Red wire on ME combinator needs to be attached to Roboport.  This is so that the mod can check what items are available in the logistics network before makiing requests
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2020/12/12
+  Features:
+    - Vwesion 1.1 compatibility
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020/10/25
+  Bug Fixes:
+    - Fixed crash on_entity_cloned
+  Features:
+    - Added event filters for slight performance improvement
+    - Added map ping to Outpost Stations on gui list
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2020/07/29
+  Bug Fixes:
+    - Fixed error placing ghost reader with no exclusions.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2020/07/09
+  Bug Fixes:
+    - Train counters are now always excluded from the ghost reader's output
+  Features:
+    - There is now a train counter exclusions list accessible via the shortcut menu items.  items
+      added to the exclusions list will excluded from the next ghost reader calculation. These
+      items can easily be added or removed as required.

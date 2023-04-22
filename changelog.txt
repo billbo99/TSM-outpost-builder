@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 2023/04/22
+  Uploaded By:
+    - billbo99
+  Bugfixes:
+    - __TSM-outpost-builder__/control.lua:341: attempt to index field 'elem_value' (a nil value)
+---------------------------------------------------------------------------------------------------
 Version: 1.2.0
 Date: 2023/04/01
   Uploaded By:

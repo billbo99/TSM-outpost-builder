@@ -338,6 +338,7 @@ local function on_gui_elem_changed(event)
     local mod = event.element.get_mod()
     if mod == nil then return end
     if mod ~= "TSM-outpost-builder" then return end
+    if event.element.elem_value == nil then return end
     table.insert(global.exclusions, { type = event.element.elem_value.type, name = event.element.elem_value.name })
     game.players[event.player_index].gui.screen.exclusion_frame.flow.exscroll.exclusions.destroy()
     exclusions_detail(game.players[event.player_index])
